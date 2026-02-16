@@ -9,9 +9,9 @@ interface ProjectCardProps {
   live?: string;
 }
 
-const ProjectCard = ({ title, description, tags, github, live }: ProjectCardProps) => {
+const ProjectCard = ({ title, description, tags, github, live, onClick }: ProjectCardProps & { onClick?: () => void }) => {
   return (
-    <div className="bg-card border border-border rounded-lg overflow-hidden card-hover group">
+    <div onClick={onClick} className="bg-card border border-border rounded-lg overflow-hidden card-hover group cursor-pointer">
       {/* Placeholder image */}
       <div className="aspect-video bg-secondary flex items-center justify-center relative overflow-hidden">
         <div className="absolute inset-0 opacity-5" style={{
