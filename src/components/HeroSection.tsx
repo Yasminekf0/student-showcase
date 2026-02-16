@@ -12,12 +12,12 @@ const HeroSection = () => {
           {'>'} Hello, World! I'm
         </p>
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-heading font-bold mb-6 animate-fade-in" style={{ animationDelay: '0.3s', opacity: 0 }}>
-          <span className="text-foreground">John </span>
-          <span className="text-gradient">Doe</span>
+          <span className="text-foreground">Yasmine </span>
+          <span className="text-gradient">Kennou Filali</span>
           <span className="text-primary animate-blink">_</span>
         </h1>
         <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mb-8 animate-fade-in" style={{ animationDelay: '0.5s', opacity: 0 }}>
-          Computer Science Student passionate about building elegant solutions to complex problems.
+          General Engineering & Cyber Systems student at DTU, building innovative solutions at the intersection of AI, DevOps, and software engineering.
         </p>
         <div className="flex gap-4 animate-fade-in" style={{ animationDelay: '0.7s', opacity: 0 }}>
           <a href="#projects" className="px-6 py-3 bg-primary text-primary-foreground font-heading text-sm rounded-md hover:opacity-90 transition-opacity">

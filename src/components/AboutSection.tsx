@@ -1,7 +1,15 @@
 const skills = [
-  "Python", "Java", "C++", "TypeScript",
-  "React", "Node.js", "Git", "SQL",
-  "Data Structures", "Algorithms", "Linux", "Docker"
+  "Java", "Python", "C++", "Go", "F#", "R",
+  "JavaScript", "React", "HTML/CSS", "SQL",
+  "Shell Scripting", "Docker", "Kubernetes", "Linux",
+  "TensorFlow", "PyTorch", "GenAI"
+];
+
+const languages = [
+  { name: "Spanish", level: "Native" },
+  { name: "Arabic", level: "Native" },
+  { name: "English", level: "C1 (Cambridge)" },
+  { name: "French", level: "C1 (DALF)" },
 ];
 
 const AboutSection = () => {
@@ -16,11 +24,21 @@ const AboutSection = () => {
         <div className="grid md:grid-cols-2 gap-12">
           <div className="space-y-4 text-secondary-foreground leading-relaxed">
             <p>
-              I'm a junior CS student at [Your University] with a focus on software engineering and systems design. I love turning ideas into code and building things that matter.
+              I'm a BSc General Engineering student specializing in Cyber Systems at the Technical University of Denmark (DTU), graduating in 2026. I thrive at the intersection of engineering, IT, and leadership.
             </p>
             <p>
-              When I'm not coding, you'll find me contributing to open source, competing in hackathons, or exploring new technologies. Currently seeking internship opportunities for Summer 2026.
+              Former IT & Workplace Student Assistant at ZeroNorth A/S, member of the Robotics Student Association (Robotech), debate team captain, and Black Belt (1st DAN) in Karate. I bring the same discipline and drive to every project I build.
             </p>
+            <div className="mt-4">
+              <h3 className="font-heading text-sm text-primary mb-3">{'>'} Languages</h3>
+              <div className="flex flex-wrap gap-2">
+                {languages.map((lang) => (
+                  <span key={lang.name} className="px-3 py-1.5 bg-secondary text-secondary-foreground font-heading text-xs rounded-sm border border-border">
+                    {lang.name} — {lang.level}
+                  </span>
+                ))}
+              </div>
+            </div>
           </div>
 
           <div>
