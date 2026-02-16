@@ -2,30 +2,18 @@ import ProjectCard from "./ProjectCard";
 
 const projects = [
   {
-    title: "Algorithm Visualizer",
-    description: "An interactive web app that visualizes sorting and pathfinding algorithms in real-time with adjustable speed and array size controls.",
-    tags: ["React", "TypeScript", "Canvas API"],
+    title: "2D Minecraft",
+    description: "A 2D recreation of the classic Minecraft experience with block-based world generation, crafting mechanics, and exploration — built from the ground up.",
+    tags: ["Java", "Game Dev", "2D Graphics"],
     github: "#",
     live: "#",
   },
   {
-    title: "Campus Connect",
-    description: "A full-stack platform for university students to find study groups, share resources, and organize campus events.",
-    tags: ["Node.js", "PostgreSQL", "React"],
-    github: "#",
-  },
-  {
-    title: "ML Image Classifier",
-    description: "A convolutional neural network trained on CIFAR-10 dataset achieving 92% accuracy with a clean web interface for real-time predictions.",
-    tags: ["Python", "TensorFlow", "Flask"],
+    title: "AI Roleplay Sales Tool",
+    description: "An AI-powered roleplay simulation tool designed to help sales teams practice and improve their pitching skills through realistic, dynamic conversation scenarios.",
+    tags: ["Python", "GenAI", "React", "TensorFlow"],
     github: "#",
     live: "#",
-  },
-  {
-    title: "Shell From Scratch",
-    description: "A custom Unix shell implementation supporting pipes, redirects, job control, and built-in commands written in C.",
-    tags: ["C", "Linux", "Systems Programming"],
-    github: "#",
   },
 ];
 

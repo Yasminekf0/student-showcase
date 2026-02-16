@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail } from "lucide-react";
+import { Linkedin, Mail } from "lucide-react";
 
 const ContactSection = () => {
   return (
@@ -14,20 +14,17 @@ const ContactSection = () => {
         </p>
 
         <a
-          href="mailto:john@example.com"
+          href="mailto:yasminekf0@gmail.com"
           className="inline-block px-8 py-3 bg-primary text-primary-foreground font-heading text-sm rounded-md hover:opacity-90 transition-opacity mb-12"
         >
           Say Hello
         </a>
 
         <div className="flex justify-center gap-6">
-          <a href="#" className="text-muted-foreground hover:text-primary transition-colors" aria-label="GitHub">
-            <Github size={22} />
-          </a>
-          <a href="#" className="text-muted-foreground hover:text-primary transition-colors" aria-label="LinkedIn">
+          <a href="https://linkedin.com/in/yasmine-kennou-filali" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors" aria-label="LinkedIn">
             <Linkedin size={22} />
           </a>
-          <a href="mailto:john@example.com" className="text-muted-foreground hover:text-primary transition-colors" aria-label="Email">
+          <a href="mailto:yasminekf0@gmail.com" className="text-muted-foreground hover:text-primary transition-colors" aria-label="Email">
             <Mail size={22} />
           </a>
         </div>

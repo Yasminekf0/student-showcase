@@ -14,7 +14,7 @@ const Index = () => {
       <ContactSection />
       <footer className="py-8 px-6 text-center">
         <p className="font-heading text-xs text-muted-foreground">
-          Built with <span className="text-primary">♥</span> by John Doe © 2026
+          Built with <span className="text-primary">♥</span> by Yasmine Kennou Filali © 2026
         </p>
       </footer>
     </div>
