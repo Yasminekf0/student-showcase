@@ -25,7 +25,11 @@ const Navbar = () => {
             </a>
           ))}
           <a
+<<<<<<< HEAD
             href="/resume.pdf"
+=======
+            href="../public/Yasminekf_CV.pdf"
+>>>>>>> yey
             className="px-4 py-1.5 border border-primary text-primary font-heading text-sm rounded-sm hover:bg-primary/10 transition-colors"
           >
             Resume
@@ -46,7 +50,11 @@ const Navbar = () => {
               {l.label}
             </a>
           ))}
+<<<<<<< HEAD
           <a href="/resume.pdf" className="inline-block px-4 py-1.5 border border-primary text-primary font-heading text-sm rounded-sm">
+=======
+          <a href="../public/Yasminekf_CV.pdf" className="inline-block px-4 py-1.5 border border-primary text-primary font-heading text-sm rounded-sm">
+>>>>>>> yey
             Resume
           </a>
         </div>

@@ -14,7 +14,11 @@ const ContactSection = () => {
         </p>
 
         <a
+<<<<<<< HEAD
           href="mailto:yasminekf0@gmail.com"
+=======
+          href="mailto:yasmine.kf0@gmail.com"
+>>>>>>> yey
           className="inline-block px-8 py-3 bg-primary text-primary-foreground font-heading text-sm rounded-md hover:opacity-90 transition-opacity mb-12"
         >
           Say Hello
@@ -24,7 +28,11 @@ const ContactSection = () => {
           <a href="https://linkedin.com/in/yasmine-kennou-filali" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors" aria-label="LinkedIn">
             <Linkedin size={22} />
           </a>
+<<<<<<< HEAD
           <a href="mailto:yasminekf0@gmail.com" className="text-muted-foreground hover:text-primary transition-colors" aria-label="Email">
+=======
+          <a href="mailto:yasmine.kf0@gmail.com" className="text-muted-foreground hover:text-primary transition-colors" aria-label="Email">
+>>>>>>> yey
             <Mail size={22} />
           </a>
         </div>
