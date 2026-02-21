@@ -12,13 +12,8 @@ interface ProjectModalProps {
     features: string[];
     github?: string;
     live?: string;
-<<<<<<< HEAD
-    images: number;
-  };
-=======
     main_image?: string;
     images: string[];}
->>>>>>> yey
 }
 
 const ProjectModal = ({ open, onClose, project }: ProjectModalProps) => {
@@ -27,16 +22,6 @@ const ProjectModal = ({ open, onClose, project }: ProjectModalProps) => {
       <DialogContent className="max-w-2xl bg-card border-border p-0 gap-0 overflow-hidden max-h-[85vh] overflow-y-auto">
         <DialogTitle className="sr-only">{project.title}</DialogTitle>
 
-<<<<<<< HEAD
-        {/* Header image placeholder */}
-        <div className="aspect-video bg-secondary flex items-center justify-center relative overflow-hidden">
-          <div className="absolute inset-0 opacity-5" style={{
-            backgroundImage: 'linear-gradient(hsl(var(--primary)) 1px, transparent 1px), linear-gradient(90deg, hsl(var(--primary)) 1px, transparent 1px)',
-            backgroundSize: '20px 20px'
-          }} />
-          <span className="font-heading text-muted-foreground text-sm z-10">[ main screenshot ]</span>
-        </div>
-=======
         {/* Header image */}
 <div className="relative aspect-video bg-secondary flex items-center justify-center overflow-hidden">
   {project.main_image ? (
@@ -63,7 +48,6 @@ const ProjectModal = ({ open, onClose, project }: ProjectModalProps) => {
 </div>
 
           <div className="h-72 sm:h-80 md:h-80 lg:h-96 xl:h-80 2xl:h-96"></div>
->>>>>>> yey
 
         <div className="p-6 space-y-6">
           {/* Title + links */}
@@ -109,22 +93,6 @@ const ProjectModal = ({ open, onClose, project }: ProjectModalProps) => {
           </div>
 
           {/* Gallery */}
-<<<<<<< HEAD
-          <div>
-            <h3 className="font-heading text-sm text-primary mb-3">{'>'} Gallery</h3>
-            <div className="grid grid-cols-3 gap-3">
-              {Array.from({ length: project.images }).map((_, i) => (
-                <div key={i} className="aspect-video bg-secondary rounded-md flex items-center justify-center border border-border overflow-hidden relative">
-                  <div className="absolute inset-0 opacity-5" style={{
-                    backgroundImage: 'linear-gradient(hsl(var(--primary)) 1px, transparent 1px), linear-gradient(90deg, hsl(var(--primary)) 1px, transparent 1px)',
-                    backgroundSize: '12px 12px'
-                  }} />
-                  <span className="font-heading text-muted-foreground text-[10px] z-10">[ img {i + 1} ]</span>
-                </div>
-              ))}
-            </div>
-          </div>
-=======
 <div>
   <h3 className="font-heading text-sm text-primary mb-3">{'>'} Gallery</h3>
   <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
@@ -152,7 +120,6 @@ const ProjectModal = ({ open, onClose, project }: ProjectModalProps) => {
   </div>
 </div>
 
->>>>>>> yey
         </div>
       </DialogContent>
     </Dialog>
